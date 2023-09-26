@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@300;400;600;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@100&display=swap");
+
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+}
+
+.main-div {
+  width: 32rem;
+  height: 49.7rem;
+  background: white;
+  border-radius: 2rem;
+  padding: 1.6rem;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.main-text {
+  width: 28.8rem;
+  color: #1f314f;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 2.4rem;
+}
+
+.description {
+  width: 25.6rem;
+  color: #7d889e;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.0188rem;
+  margin: 1.6rem auto 2.4rem;
+}
